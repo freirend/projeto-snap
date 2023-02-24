@@ -4,6 +4,8 @@ const boxempresa = document.querySelector('.box-empresa')
 const empresa = document.querySelector('.elementos-empresa')
 const iconum = document.querySelector('.uil-um')
 const icondois = document.querySelector('.uil-dois')
+const burguer = document.querySelector('.uil-bars')
+const nav = document.querySelector('#navbar')
 
 box.addEventListener('mouseover', ()=>{
     ferramenta.style.display = 'block'
@@ -23,4 +25,10 @@ boxempresa.addEventListener('mouseover', ()=>{
 boxempresa.addEventListener('mouseout', ()=>{
     empresa.style.display = 'none'
     icondois.style.transform = 'rotate(0deg)'
+})
+
+burguer.addEventListener('click', ()=>{
+    burguer.classList.toggle('uil-multiply')
+    console.log(burguer)
+    /*Preciso adicionar a lógica de abrir e fechar a nav*/
 })
