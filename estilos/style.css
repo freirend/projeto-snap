@@ -176,8 +176,8 @@ main .img-mobile{
 
 .box-patrocinios{
     display: flex;
-    gap: 30px;
-    justify-content: center;
+    gap: 60px;
+    justify-content: start;
 }
 
 .patrocinio-um{
