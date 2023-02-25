@@ -220,7 +220,7 @@ main .img-mobile{
         }
 
     .menu-dois{
-        margin-left: 0;
+        margin-left: 20px;
         flex-direction: column;
     }
 
