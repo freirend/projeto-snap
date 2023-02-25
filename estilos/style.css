@@ -319,5 +319,6 @@ main .img-mobile{
 
     .box-patrocinios{
         gap: 35px;
+        justify-content: center;
     }
 }
