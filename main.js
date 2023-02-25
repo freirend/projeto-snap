@@ -29,6 +29,10 @@ boxempresa.addEventListener('mouseout', ()=>{
 
 burguer.addEventListener('click', ()=>{
     burguer.classList.toggle('uil-multiply')
-    console.log(burguer)
+    if (burguer.className == "uil uil-bars uil-multiply"){
+        nav.style.right = '0'
+    } else{
+        nav.style.right = '150%'
+    }
     /*Preciso adicionar a lógica de abrir e fechar a nav*/
 })
