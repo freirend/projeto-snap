@@ -224,9 +224,14 @@ main .img-mobile{
         flex-direction: column;
     }
 
+    .menu-dois a li{
+        align-items: center;
+        justify-content: center;
+    }
+
     header nav ul{
         height: 100%;
-        width: 30rem;
+        width: 20rem;
         background-color: white;
         flex-flow: column;
         position: absolute;
