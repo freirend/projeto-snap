@@ -170,8 +170,27 @@ main .img-mobile{
 .box-patrocinios{
     display: flex;
     gap: 30px;
-    max-width: 120px;
-    height: 23px;
+    justify-content: center;
+}
+
+.patrocinio-um{
+    width: 81.25px;
+    height: 14.36px;
+}
+
+.patrocinio-dois{
+    width: 52.87px;
+    height: 26px;
+}
+
+.patrocinio-tres{
+    width: 58.52px;
+    height: 15.8px;
+}
+
+.patrocinio-quatro{
+    width: 62.9px;
+    height: 20.23px;
 }
 
 
@@ -278,7 +297,11 @@ main .img-mobile{
         align-self: center;
     }
 
+    .caixa__texto{
+        padding-bottom: 40px;
+    }
+
     .box-patrocinios{
-        gap: 15px;
+        gap: 35px;
     }
 }
