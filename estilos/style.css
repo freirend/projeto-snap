@@ -73,7 +73,14 @@ nav picture{
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
     text-align: right;
     color: var(--cor02);
+}
+
+.desativar{
     display: none;
+}
+
+.ativar{
+    display: block;
 }
 
 .elementos-ferramentas img{
@@ -216,8 +223,17 @@ main .img-mobile{
         font-size: 90%;
     }
 
+    body{
+        margin-top: 100px;
+    }
+
     header{
+        display: flex;
         padding: 20px 20px;
+        position: fixed;
+        background-color: #F2F2F2;
+        width: 100vw;
+        top: 0;
     }
 
     .uil-bars{
@@ -230,7 +246,7 @@ main .img-mobile{
 
     header nav{
         position: fixed;
-        top: 6rem; right: 0;
+        top: 5rem; right: 0;
         height: calc(100vh - 6rem);
         width: 100vw;
         background-color: rgba(0, 0, 0, 0.514);

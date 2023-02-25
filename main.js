@@ -27,6 +27,30 @@ boxempresa.addEventListener('mouseout', ()=>{
     icondois.style.transform = 'rotate(0deg)'
 })
 
+box.addEventListener('click', ()=>{
+    if (ferramenta.className == "elementos-ferramentas desativar"){
+        ferramenta.style.display = 'block'
+        ferramenta.classList.remove('desativar')
+        iconum.style.transform = 'rotate(180deg)'
+    } else{
+        ferramenta.style.display = 'none'
+        ferramenta.classList.add('desativar')
+        iconum.style.transform = 'rotate(0deg)'
+    }
+})
+
+boxempresa.addEventListener('click', ()=>{
+    if (empresa.className == "elementos-empresa desativar"){
+        empresa.style.display = 'block'
+        empresa.classList.remove('desativar')
+        icondois.style.transform = 'rotate(180deg)'
+    } else{
+        empresa.style.display = 'none'
+        empresa.classList.add('desativar')
+        icondois.style.transform = 'rotate(0deg)'
+    }
+})
+
 burguer.addEventListener('click', ()=>{
     burguer.classList.toggle('uil-multiply')
     if (burguer.className == "uil uil-bars uil-multiply"){
